@@ -16,3 +16,7 @@ Currently Delta watch supports the following smartwatches:
 The [E66](https://www.smartwatchspecifications.com/devices/bakeey-e66-thermometer-smartband-specs-review/)
 is an affordable smartwatch that includes a professional ECG sensor. This makes it perfect for the
 delta watch project, as it can provide accurate heart rate data. It also includes a thermometer.
+
+## License
+
+This project is licensed under the terms of the Apache License, version 2.0. See [LICENSE](LICENSE) for details.
