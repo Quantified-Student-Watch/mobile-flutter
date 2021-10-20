@@ -1,16 +1,18 @@
-# quantified_student_watch
+# Quantified Student Watch
 
-Quantified Student Watch mobile application
+In this project we will attempt to predict upcoming stress signals using machine learning and
+smartwatches. These predictions can be displayed to user using a mobile application.
 
-## Getting Started
+This repository contains the source code for the Android application.
 
-This project is a starting point for a Flutter application.
+## Compatibility
 
-A few resources to get you started if this is your first Flutter project:
+Delta watch requires connection with a specific smartwatch using a pre-defined protocol, this is
+defined by the smartwatch itself. We have to implement this protocol for each smartwatch model.
+Currently Delta watch supports the following smartwatches:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### E66
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The [E66](https://www.smartwatchspecifications.com/devices/bakeey-e66-thermometer-smartband-specs-review/)
+is an affordable smartwatch that includes a professional ECG sensor. This makes it perfect for the
+delta watch project, as it can provide accurate heart rate data. It also includes a thermometer.
